@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "restserver"
+version = "0.1.0"
+description = ""
+authors = ["Javin Lacson <javin@teamengine.org>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.1.7"
+"kilo.app1" = {path = "../../apps/app1", develop = true}
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

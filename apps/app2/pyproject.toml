@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "app2"
+version = "0.1.0"
+description = ""
+authors = ["Javin"]
+packages = [
+    { include = "app2"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+

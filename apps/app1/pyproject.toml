@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kilo-app1"
+version = "0.1.0"
+description = ""
+authors = ["Javin"]
+packages = [
+    { include = "kilo"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+"kilo.subpackage1" = {path = "../../lib/subpackage1", develop = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
