@@ -14,7 +14,21 @@ develop = true
 type = "directory"
 url = "../../lib/subpackage1"
 
+[[package]]
+name = "kilo-subpackage2"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.11"
+files = []
+develop = true
+
+[package.source]
+type = "directory"
+url = "../../lib/subpackage2"
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "98bb20ad5ac59c34a8efcee3038a7f0e2d39215cc65ecaec90ac32d270ee1ace"
+content-hash = "326a2a150a7976792c28422b4c24f2f41b09b111388a95a7104c5a562b5a90f5"

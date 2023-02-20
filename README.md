@@ -16,7 +16,16 @@ Create your django app in it's own django server, `makemigrations` or whatever e
 
 Set up python 3.11 with `pyenv`. Set up pip and poetry. Make sure your poetry uses python 3.11 (poetry env use). 
 
-# How to use
+# How to run the server
+`cd /services/restserver`
+`poetry install`
+`poetry shell`
+`python manage.py migrate`
+`python manage.py runserver`
+
+At this point the [app1](http://localhost:8000/app1) and [app2](http://localhost:8000/app2) links should work - return text and not an error.
+
+# How to add new libraries
 
 Add the library dependencies to your project with `poetry add PATH --editable`. This will allow you to change the code without having to re-compile or re-install the lib.
 
@@ -28,3 +37,6 @@ If you mess up, you may need to `poetry env info` and delete the poetry virtuale
 
 No circular imports! 
 
+# Contact
+
+Javin

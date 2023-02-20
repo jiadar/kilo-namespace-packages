@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Javin"]
 packages = [
-    { include = "subpackage2", from = "kilo" }
+    { include = "kilo" }
 ]
 
 [tool.poetry.dependencies]

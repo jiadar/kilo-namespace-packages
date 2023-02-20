@@ -1,2 +1,2 @@
-def c():
-    return(2);
+def cfn():
+    return 2

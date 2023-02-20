@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "app2"
+name = "kilo-app2"
 version = "0.1.0"
 description = ""
 authors = ["Javin"]
 packages = [
-    { include = "app2"}
+    { include = "kilo"}
 ]
 
 [tool.poetry.dependencies]

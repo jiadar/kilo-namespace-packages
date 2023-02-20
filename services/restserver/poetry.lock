@@ -48,10 +48,25 @@ develop = true
 
 [package.dependencies]
 "kilo.subpackage1" = {path = "../../lib/subpackage1", develop = true}
+"kilo.subpackage2" = {path = "../../lib/subpackage2", develop = true}
 
 [package.source]
 type = "directory"
 url = "../../apps/app1"
+
+[[package]]
+name = "kilo-app2"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.11"
+files = []
+develop = true
+
+[package.source]
+type = "directory"
+url = "../../apps/app2"
 
 [[package]]
 name = "kilo-subpackage1"
@@ -66,6 +81,20 @@ develop = true
 [package.source]
 type = "directory"
 url = "../../lib/subpackage1"
+
+[[package]]
+name = "kilo-subpackage2"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.11"
+files = []
+develop = true
+
+[package.source]
+type = "directory"
+url = "../../lib/subpackage2"
 
 [[package]]
 name = "sqlparse"
@@ -94,4 +123,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "743eec10eed6eba54c4086b58751dcf26d71384ba45bb03a957b8b916bd6e0f4"
+content-hash = "2a6fadefc8466afd673d46732ff9020b6998ea705a32828e58a0c9c4b5769326"

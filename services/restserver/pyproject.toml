@@ -10,6 +10,7 @@ readme = "README.md"
 python = "^3.11"
 django = "^4.1.7"
 "kilo.app1" = {path = "../../apps/app1", develop = true}
+"kilo.app2" = {path = "../../apps/app2", develop = true}
 
 
 

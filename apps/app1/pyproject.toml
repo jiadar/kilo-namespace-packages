@@ -10,6 +10,7 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.11"
 "kilo.subpackage1" = {path = "../../lib/subpackage1", develop = true}
+"kilo.subpackage2" = {path = "../../lib/subpackage2", develop = true}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
