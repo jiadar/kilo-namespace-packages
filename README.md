@@ -33,6 +33,16 @@ Run `poetry shell` before starting the server.
 
 If you mess up, you may need to `poetry env info` and delete the poetry virtualenv then start over with `poetry install`.
 
+# References
+
+- [Good page on gotchas with namespace packages and poetry](https://github.com/python-poetry/poetry/issues/7158)
+- [Poetry not using right python versions](https://github.com/python-poetry/poetry/issues/5252) - `poetry env delete`` and starting over sometimes cures this
+- [official poetry docs](https://python-poetry.org/docs/)
+- [official django docs for reusable apps](https://docs.djangoproject.com/en/4.1/intro/reusable-apps/)
+- [an example repo with a less complicated version of this setup](https://n124080.medium.com/create-python-package-toolbox-using-poetry-namespace-bd7e6cbd4bf0) with [github repo](https://github.com/WHPAN0108/Toolbox_subpackage2)
+- [python docs for namespace packages](https://packaging.python.org/en/latest/guides/packaging-namespace-packages/)
+
+
 # Cavets
 
 No circular imports! 
